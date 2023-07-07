@@ -1,0 +1,43 @@
+#progress-bar {
+    width: 90%;
+    height: 20px;
+    background-color: #443b98;
+    position: fixed; /* make the progress bar fixed position */
+    bottom: 50px; /* align the progress bar to the bottom of the page */
+    margin: 0 auto; /* center the progress bar horizontally */
+    margin-left: 70px;
+	align-items: center;
+    justify-content: space-between;
+    
+
+}
+  
+#progress {
+    height: 20px;
+    background-color: #2b197c;
+    width: 0%;
+    
+}
+
+#progress-text {
+    color: #f9f5f5;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: -35px; /* position the text above the progress bar */
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  body {
+    /*background-image: url("../Images/img1.png");*/
+    background-image: url("../Images/2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+  
