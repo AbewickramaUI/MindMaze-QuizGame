@@ -1,0 +1,55 @@
+		body {
+			background-image: url("../Images/2.png");
+			background-size: cover;
+			background-position: center;
+			position: relative;
+			min-height: 100vh;
+		}
+
+		.progress-container {
+			width: 100%;
+			position: absolute;
+			bottom: 0;
+            margin: 0 50px px 50px;
+		}
+
+		.progress {
+			height: 20px;
+			background-color: #2b197c;
+			border-radius: 5px;
+			margin: 0 50px 50px 50px;
+		}
+
+		.progress-bar {
+			height: 100%;
+			background-color: #443b98;
+			border-radius: 5px;
+			animation: progress-bar 3s;
+			animation-timing-function: linear;
+            
+		}
+
+		@keyframes progress-bar {
+			0% {
+				width: 0%;
+			}
+			100% {
+				width: 100%;
+			}
+		}
+
+		@media screen and (max-width: 600px) {
+			.progress {
+				height: 10px;
+			}
+		}
+        #progress-text {
+            color: #0a0a0a;
+            font-size: 20px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            position: absolute;
+            top: -35px; /* position the text above the progress bar */
+            left: 0;
+            width: 100%;
+            text-align: center;
+          }
